@@ -19,7 +19,7 @@ globals.old_coins = load_old_coins()
 logger.debug(f"old_coins: {globals.old_coins}")
 
 # loads local configuration
-config = load_config('src/config.yml')
+config = load_config('config.yml')
 
 # load necessary files
 if os.path.isfile('sold.json'):

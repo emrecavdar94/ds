@@ -1,12 +1,12 @@
 ---
   # CLIENT DETAILS - MAKE SURE YOU USE APIv4 KEYS. USING APIv2 KEYS
   # WILL CAUSE ERRORS WHEN TRYING TO BUY/SELL
-  gateio_api: "GATEIO_APIv4_KEY"
-  gateio_secret: "GATEIO_SECRET_v4"
+  gateio_api: "8DE8B431-A7A8-409D-A6A0-05259C786D9F"
+  gateio_secret: "80c8bb3aafb7780932ce241e8615d7cf25ab875556cc668d0894b647bc895000"
 
   # Getting a bot token: https://core.telegram.org/bots#6-botfather
   # Getting your chatID: find your bot and send a message,
   # then go visit https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates and find the chat ID
-  telegram_token: "my_token"
-  telegram_chat_id: "my_chat_id"
+  telegram_token: "2118217726:AAERpotx_vFtO59Hi9zUpX1q3b_aTfIjPxI"
+  telegram_chat_id: "1293735012"
   

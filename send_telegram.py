@@ -3,9 +3,9 @@ import logging
 import yaml
 from load_config import *
 
-config = load_config('src/config.yml')
+config = load_config('config.yml')
 
-with open('src/auth/auth.yml') as file:
+with open('auth.yml') as file:
     try:
         creds = yaml.load(file, Loader=yaml.FullLoader)
         bot_token = creds['telegram_token']
