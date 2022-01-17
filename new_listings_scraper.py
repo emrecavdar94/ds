@@ -8,11 +8,10 @@ import time
 import re
 
 import globals
-
 import requests
 from gate_api import ApiClient, SpotApi
 
-from auth.gateio_auth import *
+from gateio_auth import *
 from logger import logger
 from store_order import *
 from load_config import *
